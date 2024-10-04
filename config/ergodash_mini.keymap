@@ -5,7 +5,6 @@
 #include <dt-bindings/zmk/rgb.h>
 
 /{
-    CONFIG_ZMK_KEYMAP_LAYER_NAME_MAX_LEN=3
     macros {
         flash_macro: flash_macro {
             compatible = "zmk,behavior-macro";
