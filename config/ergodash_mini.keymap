@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
-
+CONFIG_ZMK_KEYMAP_LAYER_NAME_MAX_LEN=3	
 / {
     macros {
         flash_macro: flash_macro {
