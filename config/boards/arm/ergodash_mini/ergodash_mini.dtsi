@@ -12,11 +12,7 @@
 #include "ergodash_mini-layouts.dtsi"
 
 
-&ergodash_mini_zero_layout { transform = <&zero_transform>; };
-&ergodash_mini_one_layout { transform = <&one_transform>; };
-
-
-
+&ergodash_mini_default_layout { transform = <&default_transform>; };
 
 / {
     model = "ergodash_mini";
