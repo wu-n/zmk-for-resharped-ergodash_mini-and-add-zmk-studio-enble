@@ -59,7 +59,7 @@ ergodash_mini_default_layout: ergodash_mini_default_layout {
             , <&key_physical_attrs 100 200  600    400      3000     0     0>
             , <&key_physical_attrs 100 100  700    400      0     0     0>
             , <&key_physical_attrs 100 100  900    400      0     0     0>
-            , <&key_physical_attrs 100 200  1000    400    (-3000)     0     0>
+            , <&key_physical_attrs 100 200  1000    300    (-3000)     0     0>
             , <&key_physical_attrs 100 100 1120    400     (-3000)     0     0>
             , <&key_physical_attrs 100 100 1300    300      0     0     0>
             , <&key_physical_attrs 100 100 1400    325      0     0     0>
