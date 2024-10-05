@@ -7,7 +7,7 @@
 
 #include "ergodash_mini.dtsi"
 
-;{
+;/{
     chosen {
         zmk,battery = &vbatt;
 
