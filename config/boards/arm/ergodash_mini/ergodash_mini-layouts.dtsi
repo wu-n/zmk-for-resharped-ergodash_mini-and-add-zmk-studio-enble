@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 /{
-ergodash_mini_zero_physical_layout: ergodash_mini_zero_layout {
+ergodash_mini_zero_layout: ergodash_mini_zero_layout {
         compatible = "zmk,physical-layout";
         display-name = "zero";
 
@@ -67,7 +67,7 @@ ergodash_mini_zero_physical_layout: ergodash_mini_zero_layout {
             , <&key_physical_attrs 100 100 1600    250      0     0     0>
             ;
     };
-    ergodash_mini_one_physical_layout: ergodash_mini_one_layout {
+    ergodash_mini_one_layout: ergodash_mini_one_layout {
         compatible = "zmk,physical-layout";
         display-name = "one";
 
