@@ -125,8 +125,8 @@ ergodash_mini_zero_physical_layout: ergodash_mini_zero_physical_layout {
             , <&key_physical_attrs 100 200  700    400      3000     0     0>
             , <&key_physical_attrs 100 100  700    400      0     0     0>
             , <&key_physical_attrs 100 100  900    400      0     0     0>
-            , <&key_physical_attrs 100 200  900    400     -3000     0     0>
-            , <&key_physical_attrs 100 100 1100    350     -3000     0     0>
+            , <&key_physical_attrs 100 200  900    400     (-3000)     0     0>
+            , <&key_physical_attrs 100 100 1100    350     (-3000)     0     0>
             , <&key_physical_attrs 100 100 1300    200      0     0     0>
             , <&key_physical_attrs 100 100 1400    225      0     0     0>
             , <&key_physical_attrs 100 100 1500    250      0     0     0>
