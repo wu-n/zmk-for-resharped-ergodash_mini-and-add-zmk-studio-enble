@@ -6,7 +6,7 @@
 if BOARD_ERGODASH_MINI_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Ergodash_mini"
+    default "ERGO Mini"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
