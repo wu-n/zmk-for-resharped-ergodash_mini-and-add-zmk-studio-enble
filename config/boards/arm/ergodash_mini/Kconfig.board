@@ -11,3 +11,6 @@ config BOARD_ERGODASH_MINI_LEFT
 config BOARD_ERGODASH_MINI_RIGHT
     bool "ergodash_mini right"
     depends on SOC_NRF52840_QIAA
+
+config SHIELD_ERGO_CENTRAL_DONGLE
+    def_bool $(shields_list_contains,ergodash_mini_dongle)
