@@ -10,12 +10,11 @@
 ;/{
     chosen {
         zmk,battery = &vbatt;
-
     };
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-     wakeup-source;
+        wakeup-source;
         diode-direction = "col2row";
         row-gpios
             = <&gpio0 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -42,8 +41,7 @@
         init-delay-ms = <50>;
     };
 
-     vbatt: vbatt {
+    vbatt: vbatt {
         compatible = "zmk,battery-nrf-vddh";
     };
-
 };
